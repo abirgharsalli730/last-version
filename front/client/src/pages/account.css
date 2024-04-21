@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .left-section,
+  .right-section {
+    width: 50%; /* Each section takes up half of the container */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  /* Media query for smaller devices */
+  @media (max-width: 768px) {
+    .left-section,
+    .right-section {
+      width: 100%; /* Full width for smaller devices */
+    }
+  }
+  
+  /* ButtonArrowLayout.css */
+.button-arrow-layout {
+  position: relative;
+  width: 500px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+}
+
+.button {
+  position: absolute;
+  width: 100px;
+  height: 50px;
+  /* Add more styles for the buttons */
+}
+
+.arrow {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  transform: rotate(45deg);
+  /* Add more styles for the arrows */
+}
+
+/* Add more styles to position the buttons and arrows as needed */

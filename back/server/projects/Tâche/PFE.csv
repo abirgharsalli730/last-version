@@ -1,0 +1,15 @@
+id,summary,description,projectName,createdBy,createdTime
+10018,tra,,PFE,Abir Gharsalli,2024-04-08T05:11:57.483+0100
+10017,trace,,PFE,Abir Gharsalli,2024-04-01T10:33:39.314+0100
+10016,Profile display & Edit ,This ticket aims to implement user profile display and provide users with the ability to edit their profile properties.,PFE,Nouha Rouis,2024-03-06T10:34:32.942+0100
+10015,Log out functionality,This ticket is intended to establish the logout functionality for the application.,PFE,Nouha Rouis,2024-03-06T10:33:12.515+0100
+10014,Tools configuration,This task aims to install the tools needed for our application.,PFE,Rahma Fkaier,2024-02-28T10:12:04.899+0100
+10013,Artifacts,The tool can generate a list of artifacts utilized in the project. Along its lifecycle, a project is related to objects of different types and origins ( .XML , .docx..). An artefact represents any object belonging to a project.,PFE,Nouha Rouis,2024-02-26T09:44:25.304+0100
+10011,Requirement Load ,After converting all the data into XML format, it will be stored in a centralized repository. This repository contains all the necessary information required to start the workflow process.,PFE,Nouha Rouis,2024-02-16T12:03:40.312+0100
+10010,Requirement Transform ,The tool will convert all input documents into XML format, which will then be used for generating statistics and KPIs.,PFE,Nouha Rouis,2024-02-16T12:03:01.348+0100
+10009,Requirement Extract / Upload ,Users should have the capability to upload all project documents within the application. Initially, the process involves selecting the project name under R4J database. After that, users navigate to Bitbucket to choose the project name and branch that will serve as the basis for importing documents.,PFE,Nouha Rouis,2024-02-16T12:02:42.606+0100
+10007,Project Configuration ,The interface should enable users to customize project settings based on their roles (administrator, enhanced developer ). ,PFE,Nouha Rouis,2024-02-16T11:45:35.880+0100
+10006,Project Creation ,Users with project management privileges ( administrator, enhanced developer)  shall be able to create new projects, specifying project details such as name and description,PFE,Nouha Rouis,2024-02-16T11:29:06.049+0100
+10004,Password management,The application offers a ',PFE,Nouha Rouis,2024-02-16T11:22:45.028+0100
+10003,Access Control ,To maintain data security and privacy, the application shall implement role-based access control with granular permissions. This ensures that different user roles (e.g., administrator, enhanced developer, regular user …) have distinct levels of access to various features and data within the application.,PFE,Nouha Rouis,2024-02-16T11:19:11.321+0100
+10002,User Login ,The interface shall provide a secure user authentication mechanism, allowing authorized users to log in.,PFE,Nouha Rouis,2024-02-16T11:16:01.607+0100
